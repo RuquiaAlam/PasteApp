@@ -17,7 +17,7 @@ const Navbar = () => {
         Paste
       </NavLink>
       <NavLink
-        to="/view-pastes/:id"
+        to="/viewPastes/:id"
         className={({ isActive }) => (isActive ? "active-link" : "")}
       >
         ViewPaste
