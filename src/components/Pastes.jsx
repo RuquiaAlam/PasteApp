@@ -32,7 +32,7 @@ const Pastes = () => {
                   <a href={`/?pasteId=${paste._id}`}>Edit</a>
                 </button>
                 <button>
-                  <a href={`/view-pastes/${paste._id}`}>View</a>
+                  <a href={`/viewPastes/${paste._id}`}>View</a>
                 </button>
                 <button
                   onClick={() => {
