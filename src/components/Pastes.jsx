@@ -52,6 +52,7 @@ const Pastes = () => {
                 </button>
                 <button onClick={() => handleDelete(paste._id)}>Delete</button>
               </div>
+              <div>{paste.createdAt}</div>
             </div>
           );
         })}
